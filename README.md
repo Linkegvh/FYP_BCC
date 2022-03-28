@@ -1,6 +1,6 @@
 # Body Coupled Communication FPGA Control Code (Verilog) for NUS FYP (EG4301 DCP Dissertation)
 
-## Done by Ding Lingke 
+## Done by Ding Lingke & Jonathan Chua
 
 All folder begins with TX are files related to the BCC transmitter and all folder begins with RX are files related to the BCC receiver. 
 
