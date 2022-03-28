@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/Clk_10k.v" \
+"../../../../project_1.srcs/sources_1/new/Clk_1Mhz.v" \
+"../../../../project_1.srcs/sources_1/new/OOK.v" \
+"../../../../project_1.srcs/sources_1/new/clk_100khz.v" \
+"../../../../project_1.srcs/sources_1/new/clk_1hz.v" \
+"../../../../project_1.srcs/sources_1/new/clk_5hz.v" \
+"../../../../project_1.srcs/sources_1/new/led.v" \
+"../../../../project_1.srcs/sources_1/new/State_control.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,17 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9df5cbc8f9b04cc4b3c1d01f1238ec0e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot uart_tb_func_synth xil_defaultlib.uart_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port pio1 on this module [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.srcs/sim_1/new/uart_tb.v:63]
+ERROR: [VRFC 10-2063] Module <RX_Demodulator> not found while processing module instance <RX> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1628]
+ERROR: [VRFC 10-2063] Module <FDRE> not found while processing module instance <TX_Start_reg> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1644]
+ERROR: [VRFC 10-2063] Module <LUT4> not found while processing module instance <o_Byte[0]_i_2> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1652]
+ERROR: [VRFC 10-2063] Module <IBUF> not found while processing module instance <pio30_IBUF_inst> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1778]
+ERROR: [VRFC 10-2063] Module <LUT1> not found while processing module instance <start_up_index_rep[0]_i_1> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1857]
+ERROR: [VRFC 10-2063] Module <LUT2> not found while processing module instance <start_up_index_rep[1]_i_1> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1863]
+ERROR: [VRFC 10-2063] Module <LUT3> not found while processing module instance <start_up_index_rep[2]_i_1> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1870]
+ERROR: [VRFC 10-2063] Module <BUFG> not found while processing module instance <sysclk_IBUF_BUFG_inst> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1887]
+ERROR: [VRFC 10-2063] Module <UART_TX> not found while processing module instance <tx_out> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1893]
+ERROR: [VRFC 10-2063] Module <OBUF> not found while processing module instance <uart_rxd_out_OBUF_inst> [C:/Users/Lingke/Desktop/FYP/Round 1 Prototype/RX_V1.0/RX_V1.0.sim/sim_1/synth/func/xsim/uart_tb_func_synth.v:1906]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
